@@ -27,12 +27,17 @@ PO는 삼성 전자와 영업이 가격 조율이나 자재 개수 등의 정보
 ```
 스마트 드라이버 -> RACK, Base & Controller & io8포트 & io48포트
 
-RACK은 Full(44u), Half(22u)
+RACK은 Full(42u), Half(22u)
 
 사업장 지역별로 Base의 사이즈가 정해져있다. 이 정보는 시트 어딘가에 있으니 확인하고 정리할 것
 
-사이즈 종류 -> 250mm, 300mm 600mm
+사이즈 종류 -> 250mm, 300mm, 600mm
 ```
+| Base Height | Size(mm) |
+| --- | --- |
+| Infra | 250 |
+| Memory | 300 |
+| 인프라복합동 | 250(None A/F) or 600 |
 
 2. 일정 맞추기
 ```
